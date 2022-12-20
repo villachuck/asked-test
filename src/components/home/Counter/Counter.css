@@ -1,0 +1,63 @@
+.counter-section {
+    margin: 20px 0;
+}
+
+.counter-block {
+    max-width: 1250px;
+    margin: 0 auto;
+    background: #80BC00;
+    border-radius: 10px;
+    padding: 25px 0;
+    display: flex;
+}
+
+.counter-text {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.counter-text p {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.countdown {
+    width: 40%;
+}
+
+.countdown p {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.todaysTitle {
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .counter-section {
+        margin: 20px 8px;
+    }
+
+    .counter-text {
+        width: 70%;
+    }
+
+    .counter-text p {
+        font-size: 20px;
+    }
+
+    .countdown {
+        margin-right: 20px;
+        font-weight: bold;
+    }
+
+    .todaysTitle {
+        font-size: 20px !important;
+    }
+}

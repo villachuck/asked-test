@@ -1,0 +1,69 @@
+.button-menu {
+    cursor: pointer;
+    margin-left: 5%;
+    display: flex;
+}
+
+.button-menu p {
+    color: #0d47a1;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.menu-list {
+    position: absolute;
+    background: #fff;
+    z-index: 9;
+}
+
+.inside-btn {
+    font-size: 20px;
+    font-family: Archivo_Expanded,sans-serif;
+    color: #0d47a1;
+    font-weight: 700;
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.inside-btn span {
+    display: inline-block;
+}
+
+.inside-btn p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-icon {
+    color: #f76900;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1150px) {
+    .button-menu p {
+        display: none;
+    }
+
+    .button-menu {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inside-btn img {
+        vertical-align: middle;
+        margin-left: 10px;
+        width: 75% !important;
+    }
+
+    .button-menu {
+        margin-left: 0;
+    }
+
+    .mobile-logo {
+        vertical-align: top;
+        padding-left: 10px;
+    }
+}

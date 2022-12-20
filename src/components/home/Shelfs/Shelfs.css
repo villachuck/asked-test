@@ -1,0 +1,124 @@
+.shelfs-container {
+    margin-top: 40px;
+}
+
+.shelfs-row {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.shelfs-title p {
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0D47A1;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.product-image img {
+    max-width: 30%;
+    height: 200px;
+    object-fit: contain;    
+}
+
+.product-name {
+    text-align: center;
+    color: #333d49;
+    font-size: 12px;
+    line-height: 16px;
+    height: 95px;
+}
+
+.product-price {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D47A1;
+    height: 90px;
+}
+
+.product-price p {
+    margin: 0;
+}
+
+.product-cta {
+    text-align: center;
+    padding: 0 15px 45px 15px;
+}
+
+.buy-button {
+    max-width: 250px;
+    height: 40px;
+    background: #f76900;
+    margin: 0 auto;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background: #0d47a1;
+}
+
+.link-button {
+    color: #fff;
+    text-decoration: none;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.buy-icon {
+    color: #fff
+}
+
+.shelf-one {
+    padding-bottom: 15px;
+}
+
+.shelfs-container .Carousel__Dots-sc-hyhecw-4 {
+    bottom: -25px;
+}
+
+.shelfs-container .ArrowButton__Button-sc-1ikb0hj-1 {
+    background: #f76900;
+    color: #fff;
+    opacity: 1;
+}
+
+.shelfs-container .ArrowButton__Button-sc-1ikb0hj-1::before {
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.shelfs-container .Dot__DotDefault-sc-176tc56-1 {
+    width: 24px !important;
+    height: 4px !important;
+    border-radius: 4px;
+}
+
+.shelfs-container .dXdHiN {
+    background: #f76900;
+}
+
+.shelfs-container .hpZGEX {
+    background: #CACBCC;
+}
+
+@media screen and (max-width: 768px) {
+    .shelfs-container .Carousel__Rail-sc-hyhecw-2 {
+        max-width: 350px;
+    }
+}

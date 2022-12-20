@@ -1,0 +1,136 @@
+.recommendations-row {
+    max-width: 1250px;
+    margin:  0 auto;
+}
+
+.recommendations-title p {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0D47A1;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.recommendations-steps {
+    display: flex;
+}
+
+.step-1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 15px);
+    margin-right: 20px;
+    position: relative;
+}
+
+.step-2 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 15px);
+    margin-right: 20px;
+    position: relative;
+}
+
+.step-3 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 15px);
+    margin-right: 20px;
+    position: relative;
+}
+
+.step-4 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 15px);    
+    position: relative;
+}
+
+.image-card-1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.image-card-hover-1 {
+    position: absolute;
+    z-index: -1;
+}
+
+.image-card-hover-1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-card-1 img,
+.image-card-2 img,
+.image-card-3 img,
+.image-card-4 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.step-1 .number,
+.step-2 .number,
+.step-3 .number,
+.step-4 .number {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    color: #fff;
+    margin: 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.step-1 .title,
+.step-2 .title,
+.step-3 .title,
+.step-4 .title {
+    position: absolute;
+    color: #fff;
+    left: 5%;
+    bottom: 0%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.img-inside {
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    width: 60%;
+}
+
+.img-inside-4 {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    width: 35%;
+}
+
+.text-behind-1 {
+    background-color: #0B539F;
+    position: absolute;
+    top: 0;
+    height: 99%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.text-behind-1 p {
+    margin: 20px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .step-4 {
+        margin-right: 20px;
+    }
+
+    .recommendations-steps .Carousel__Rail-sc-hyhecw-2 {
+        width: 75%;
+    }
+}

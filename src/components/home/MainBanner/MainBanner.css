@@ -1,0 +1,35 @@
+.banner-block {
+    max-width: 1250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-block img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.over-logo {
+    position: absolute;
+    top: 20%;
+}
+
+.over-logo img {
+    width: 480px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-banner {
+        padding: 0 8px;
+    }
+
+    .over-logo img {
+        width: 60%;
+        height: auto !important;
+    }
+
+    .banner-block img {
+        object-fit: cover;
+        height: 33vw;
+    }
+}

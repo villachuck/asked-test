@@ -1,0 +1,214 @@
+.grid-section {
+    display: flex;
+}
+
+.grid-container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.grid-top-row, .grid-bottom-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.first-section-banner,
+.sixth-section-banner {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(50% - 10px);
+    position: relative;
+}
+
+.second-section-banner,
+.fifth-section-banner {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 15px);
+    padding: 0 20px;
+}
+
+.third-section-banner,
+.fourth-section-banner {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 15px);
+}
+
+.first-section-banner img,
+.second-section-banner img,
+.third-section-banner img,
+.fourth-section-banner img,
+.fifth-section-banner img,
+.sixth-section-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.first-section-banner a,
+.sixth-section-banner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.first-section-banner h2 {
+    position: absolute;
+    top: 10%;
+    margin: 20px;
+    font-size: 30px;
+    width: 55%;
+}
+
+.sixth-section-banner h2 {
+    position: absolute;
+    top: 10%;
+    margin: 20px;
+    font-size: 30px;
+    width: 49%;
+}
+
+.first-section-banner p,
+.sixth-section-banner p {
+    position: absolute;
+    top: 55%;
+    margin: 20px;
+    font-size: 20px;
+    width: 65%;
+    line-height: 18.5px;
+}
+
+.second-section-banner, 
+.third-section-banner,
+.fourth-section-banner, 
+.fifth-section-banner {
+    position: relative;
+}
+
+.second-section-banner a,
+.third-section-banner a,
+.fourth-section-banner a,
+.fifth-section-banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.second-section-banner p,
+.third-section-banner p,
+.fourth-section-banner p,
+.fifth-section-banner p {
+    position: absolute;
+    bottom: 0%;
+    font-size: 18px;
+    margin: 15px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.second-section-banner,
+.third-section-banner,
+.fourth-section-banner,
+.fifth-section-banner {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all .6s;
+}
+
+.second-section-banner:hover,
+.third-section-banner:hover,
+.fourth-section-banner:hover,
+.fifth-section-banner:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1087px) {
+    .first-section-banner h2,
+    .sixth-section-banner h2 {
+        top: 0;
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .first-section-banner p,
+    .sixth-section-banner p {
+        top: 45%;
+    }
+}
+
+@media screen and (max-width: 876px) {
+    .first-section-banner h2,
+    .sixth-section-banner h2 {
+        font-size: 22px;
+    }
+
+    .first-section-banner p,
+    .sixth-section-banner p {
+        top: 39%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-top-row, .grid-bottom-row {
+        padding: 0 8px;
+        margin-bottom: 0;
+    }
+
+    .first-section-banner,
+    .sixth-section-banner {
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+
+    .first-section-banner h2,
+    .sixth-section-banner h2 {
+        width: 90%;
+    }
+
+    .first-section-banner p,
+    .sixth-section-banner p {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .middle-section-banner {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    .middle-section-banner a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .middle-section-banner p {
+        position: absolute;
+        bottom: 0%;
+        font-size: 18px;
+        margin: 15px;
+        font-weight: bold;
+        width: 90%;
+    }
+    
+    .middle-section-banner img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .grid-middle-row .Carousel__Rail-sc-hyhecw-2 {
+        width: 60% !important;
+    }
+
+    .second-section-banner,
+    .third-section-banner,
+    .fourth-section-banner,
+    .fifth-section-banner {
+        display: none;
+    }
+
+}
+
+

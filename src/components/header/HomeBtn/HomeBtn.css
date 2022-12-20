@@ -1,0 +1,21 @@
+.home-btn {
+  display: flex;
+  align-items: center;
+  justify-content: initial;
+  width: 25%;
+}
+
+.home-btn img {
+  width: 110px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-chedraui {
+    display: none;
+  }
+
+  .home-btn {
+    width: 50%;
+    padding-left: 8px;
+  }
+}
