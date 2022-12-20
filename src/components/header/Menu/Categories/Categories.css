@@ -134,7 +134,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 1151px) {
+@media screen and (max-width: 1180px) {
     .menu-block-mobile {
         position: fixed;
         top: 0;
@@ -286,5 +286,9 @@
         width: 200%;
         opacity: 0.5;
         height: 100vh;
+    }
+
+    .desktop-menu {
+        margin-left: 20%;
     }
 }

@@ -12,7 +12,7 @@ const GridSix = () => {
             <div className='grid-container'>
                 <div className='grid-top-row'>
                     <div className='first-section-banner'>
-                        <a href='/'>
+                        <a>
                             <h2>Disfruta del Martimiércoles de Chedraui</h2>
                             <p>Cada martes y miércoles creamos los mejores precios en frutas y verduras para ti y tu familia.</p>
                             <img src="https://chedrauimx.vteximg.com.br/arquivos/Naranja_textos.jpg" alt='banner informativo' />
@@ -89,7 +89,7 @@ const GridSix = () => {
                         </a>                        
                     </div>
                     <div className='sixth-section-banner'>
-                        <a href='/'>
+                        <a>
                             <h2>Encuentra las mejores frutas y verduras</h2>
                             <p>Sabemos lo importante que es tener una alimentación balanceada y con alimentos nutritivos.</p>
                             <img src="https://chedrauimx.vteximg.com.br/arquivos/Naranja_textos.jpg" alt='banner informativo' />

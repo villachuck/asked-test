@@ -131,12 +131,12 @@ const PDP = () => {
                                 </div>
                                 <div className="info-section">
                                     <div className="buttons-section">
-                                        <a>
+                                        <a href="/">
                                             <div className="btn-favorites">
                                                 <FontAwesomeIcon className="button-icon" icon={faHeart} /> Añadir a favoritos
                                             </div>
                                         </a>
-                                        <a>
+                                        <a href="/">
                                             <div className="btn-list">
                                                 <FontAwesomeIcon className="button-2-icon" icon={faListCheck} /> Añadir a la lista
                                             </div>                                    
@@ -159,7 +159,7 @@ const PDP = () => {
                                         )}
                                     </div>
                                     <div className="cta-on-pdp">
-                                        <a>
+                                        <a href="/">
                                             <div className="pdp-buy-button">
                                                 <FontAwesomeIcon className="buy-icon" icon={faShoppingCart} /> Agregar                                                
                                             </div>

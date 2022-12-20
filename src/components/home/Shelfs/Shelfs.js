@@ -81,7 +81,7 @@ const Shelfs = ( { titleVitrine, categoryName } ) => {
                                         </div>
                                         <div className='product-cta'>
                                             <div className='buy-button'>
-                                                <a className='link-button'>
+                                                <a className='link-button' href={'/productos/' + product.id}>
                                                     <FontAwesomeIcon className="buy-icon" icon={faShoppingCart} /> Agregar                                                
                                                 </a>
                                             </div>

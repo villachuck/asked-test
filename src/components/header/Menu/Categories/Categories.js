@@ -43,7 +43,7 @@ const Categories = () => {
 
     return (
         <>
-        {isMobile < 990 ? (
+        {isMobile < 1181 ? (
             <>            
             {/* {closeMenu && ( */}
             <div className="menu-block-mobile">                
