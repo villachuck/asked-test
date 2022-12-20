@@ -119,10 +119,12 @@
     color: #fff;
     font-size: 14px;
     padding: 0 10px;
+    
 }
 
 .text-behind-1 p {
-    margin: 20px 10px;
+    margin: 70px 10px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
@@ -132,5 +134,28 @@
 
     .recommendations-steps .Carousel__Rail-sc-hyhecw-2 {
         width: 75%;
+    }
+
+    .step-1-back,
+    .step-2-back {
+        background-color: #0B539F;
+        position: absolute;
+        top: 0;
+        height: 99%;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 14px;
+        padding: 0 10px;
+        width: 74%;
+    }
+
+    .step-2-back {
+        z-index: -1;
+    }
+
+    .step-1-back p {
+        font-size: 13px;
+        color: #fff;
+        margin: 50px 15px;
     }
 }

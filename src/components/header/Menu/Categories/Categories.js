@@ -426,7 +426,7 @@ const Categories = () => {
                 <div className="menu-row">
                     <ul>
                         <li onMouseOver={() => handleMouseOver('super')}>
-                            <a href="/">
+                            <a>
                                 <div className="category-container">
                                     <img src="https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/f4f93dd3-c236-4d4e-beb0-b6ab42383329___c55b4ea9412e20333d5c69302a4dc95a.svg" />
                                     <p>Súper</p>
@@ -435,7 +435,7 @@ const Categories = () => {
                             </a>
                         </li>
                         <li onMouseOver={() => handleMouseOver('vinos')}>
-                            <a href="/">
+                            <a>
                                 <div className="category-container">
                                     <img src="https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ce13c07d-8992-4636-8fc3-4cab87ef4ad2___a60b4942fd4430e111e5e3fda38f9ca5.svg" />
                                     <p>Vinos y Licores</p>
@@ -444,7 +444,7 @@ const Categories = () => {
                             </a>
                         </li>
                         <li onMouseOver={() => handleMouseOver('')}>
-                            <a href="/">
+                            <a>
                                 <div className="category-container">
                                     <img src="https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/30cbb49d-da34-4017-ab90-f7e92166656d___7bed4504b648dc6cae31e36a54004154.svg" />
                                     <p>Bebés</p>

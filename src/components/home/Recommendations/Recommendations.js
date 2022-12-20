@@ -7,7 +7,12 @@ import Carousel from 'better-react-carousel'
 const Recommendations = () => {
     const isMobile = window.innerWidth;
 
-    const [showBack, setshowBack] = useState(true);
+    const [showBack, setshowBack] = useState(false);
+
+    const switchStyle =  {
+        zIndex : showBack ? '-1' : '1'
+    }
+    
 
     return (
         <>
@@ -22,7 +27,7 @@ const Recommendations = () => {
                                 <Carousel cols={1} rows={1} gap={10} >
                                     <Carousel.Item>
                                         <div className='step-1'>
-                                            <div className='image-card-1'>
+                                            <div className='image-card-1' style={switchStyle} onClick={() => setshowBack(!showBack)}>
                                                 <p className='number'>1</p>
                                                 <img src='https://chedrauimx.vteximg.com.br/arquivos/Back_paso1.jpg' alt="paso uno" />
                                                 <p className='title'>Fija un<br/>estilo para<br/>comer</p>
@@ -30,9 +35,9 @@ const Recommendations = () => {
                                                     <img src="https://chedrauimx.vteximg.com.br/arquivos/img-Paso%201.png" alt='fruta' />
                                                 </span>
                                             </div>
-                                            <div className='text-behind-1'>
-
-                                            </div>
+                                        </div>
+                                        <div className='step-1-back' onClick={() => setshowBack(!showBack)}>
+                                            <p>Escuchar la palabra “dieta” puede ser algo complicado de asimilar y, en general, las fiestas se basan en alimentos bajos en calorías. Eso siempre funciona. Pero, lo mejor es un cambio de tu estilo para comer y, más importante aún, que sea sostenible para ti y tu familia. Los alimentos orgánicos siempre serán una buena opción.</p>
                                         </div>
                                     </Carousel.Item>
                                     <Carousel.Item>
@@ -45,7 +50,6 @@ const Recommendations = () => {
                                                     <img src="https://chedrauimx.vteximg.com.br/arquivos/img-Paso%202.png" alt='carne' />
                                                 </span>
                                             </div>
-                                            <div className='text-behind-2'></div>
                                         </div>
                                     </Carousel.Item>
                                     <Carousel.Item>
@@ -79,16 +83,16 @@ const Recommendations = () => {
                         ):(
                             <>
                                 <div className='step-1' >
-                                    <div className="image-card-1" >
+                                    <div className="image-card-1" style={switchStyle} onClick={() => setshowBack(!showBack)}>
                                         <p className='number'>1</p>
                                         <img src='https://chedrauimx.vteximg.com.br/arquivos/Back_paso1.jpg' alt="paso uno" />
                                         <p className='title'>Fija un<br/>estilo para<br/>comer</p>
                                         <span className='img-inside'>
-                                            <img src="https://chedrauimx.vteximg.com.br/arquivos/img-Paso%201.png" alt='fruta' />
+                                            <img src="https://chedrauimx.vteximg.com.br/arquivos/img-Paso%201.png" alt='fruta'  />
                                         </span>
                                     </div>
-                                    <div className='text-behind-1'>
-                                        <p>
+                                    <div className='text-behind-1' onClick={() => setshowBack(!showBack)} >
+                                        <p onMouseOut={() => setshowBack(!showBack)}>
                                             Escuchar la palabra “dieta” puede ser algo complicado de asimilar y, en general, las fiestas se basan en alimentos bajos en calorías. Eso siempre funciona. Pero, lo mejor es un cambio de tu estilo para comer y, más importante aún, que sea sostenible para ti y tu familia. Los alimentos orgánicos siempre serán una buena opción.
                                         </p>
                                     </div>

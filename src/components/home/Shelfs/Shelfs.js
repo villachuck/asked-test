@@ -80,11 +80,11 @@ const Shelfs = ( { titleVitrine, categoryName } ) => {
                                             )}
                                         </div>
                                         <div className='product-cta'>
-                                            <div className='buy-button'>
-                                                <a className='link-button' href={'/productos/' + product.id}>
-                                                    <FontAwesomeIcon className="buy-icon" icon={faShoppingCart} /> Agregar                                                
-                                                </a>
-                                            </div>
+                                            <a className='link-button' href={'/productos/' + product.id}>
+                                                <div className='buy-button'>                                                
+                                                    <FontAwesomeIcon className="buy-icon" icon={faShoppingCart} /> Agregar                                                                                                
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </Carousel.Item>
