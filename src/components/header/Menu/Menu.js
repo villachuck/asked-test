@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Categories from "./Categories/Categories";
-/* import NavigationButton from "./NavigationBtn/NavigationBtn"; */
 import './Menu.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

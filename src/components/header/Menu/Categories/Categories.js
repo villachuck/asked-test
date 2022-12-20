@@ -23,7 +23,8 @@ const Categories = () => {
         if(hoveredCategory === 'super') {
             setIsHovering(true);
             setSubcat(hoveredCategory)
-        } else if(hoveredCategory === 'vinos') {
+        } 
+        else if(hoveredCategory === 'vinos') {
             setIsHovering(true);
             setSubcat(hoveredCategory)
         }
@@ -44,12 +45,16 @@ const Categories = () => {
         <>
         {isMobile < 990 ? (
             <>            
-            <div className="menu-block-mobile">
+            {/* {closeMenu && ( */}
+            <div className="menu-block-mobile">                
                 <div className="menu-row-mobile">
+                    <span class="hello-there" onClick={() => setCloseMenu(!closeMenu)}></span>
                     <div className="available-space">
                         <div className="menu-header">
                             <div className="menu-logo">
-                                <img src="https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ea5c1413-971b-4b55-a906-d232216b2dd9___df4fd208880219bf1d7d67626306b6d5.svg" alt="mobile logo" />
+                                <a href="/">
+                                    <img src="https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ea5c1413-971b-4b55-a906-d232216b2dd9___df4fd208880219bf1d7d67626306b6d5.svg" alt="mobile logo" />
+                                </a>                                
                             </div>
                             <div className="menu-login">
                                 <a href="/">
@@ -145,7 +150,7 @@ const Categories = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>{/* )} */}
             {submenuOpen && (                                
                 <div className="menu-block-mobile">
                     <div className="menu-row-mobile">
@@ -524,33 +529,33 @@ const Categories = () => {
                                         <div className="first-column">
                                             <p>Frutas y Verduras</p>
                                             <ul>
-                                                <li><a>Frutas</a></li>
-                                                <li><a>Verduras</a></li>
-                                                <li><a>Organicos</a></li>
-                                                <li><a>Ensaladas</a></li>
-                                                <li><a>Desinfectantes</a></li>
+                                                <li><a href="/">Frutas</a></li>
+                                                <li><a href="/">Verduras</a></li>
+                                                <li><a href="/">Organicos</a></li>
+                                                <li><a href="/">Ensaladas</a></li>
+                                                <li><a href="/">Desinfectantes</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="second-column">
                                             <p>Carnes y Aves</p>
                                             <ul>
-                                                <li><a>Res</a></li>
-                                                <li><a>Preparados de res</a></li>
-                                                <li><a>Bistec y milanesas</a></li>
-                                                <li><a>Carne molida</a></li>
-                                                <li><a>Cerdo</a></li>
+                                                <li><a href="/">Res</a></li>
+                                                <li><a href="/">Preparados de res</a></li>
+                                                <li><a href="/">Bistec y milanesas</a></li>
+                                                <li><a href="/">Carne molida</a></li>
+                                                <li><a href="/">Cerdo</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="third-column">
                                             <p>Pescados y mariscos</p>
                                             <ul>
-                                                <li><a>Filetes de pescado</a></li>
-                                                <li><a>Pescados enteros</a></li>
-                                                <li><a>Mariscos</a></li>
-                                                <li><a>Camarones</a></li>
-                                                <li><a>Salados y secos</a></li>
+                                                <li><a href="/">Filetes de pescado</a></li>
+                                                <li><a href="/">Pescados enteros</a></li>
+                                                <li><a href="/">Mariscos</a></li>
+                                                <li><a href="/">Camarones</a></li>
+                                                <li><a href="/">Salados y secos</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
@@ -559,33 +564,33 @@ const Categories = () => {
                                         <div className="fourth-column">
                                             <p>Salchichonería</p>
                                             <ul>
-                                                <li><a>Jamón</a></li>
-                                                <li><a>Pechuga de pavo</a></li>
-                                                <li><a>Salchichas</a></li>
-                                                <li><a>Chorizo</a></li>
-                                                <li><a>Tocino</a></li>
+                                                <li><a href="/">Jamón</a></li>
+                                                <li><a href="/">Pechuga de pavo</a></li>
+                                                <li><a href="/">Salchichas</a></li>
+                                                <li><a href="/">Chorizo</a></li>
+                                                <li><a href="/">Tocino</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="fifth-column">
                                             <p>Lácteos y huevo</p>
                                             <ul>
-                                                <li><a>Leche entera</a></li>
-                                                <li><a>Leche fresca</a></li>
-                                                <li><a>Leche light</a></li>
-                                                <li><a>Leche descremada</a></li>
-                                                <li><a>Leche semidescremada</a></li>
+                                                <li><a href="/">Leche entera</a></li>
+                                                <li><a href="/">Leche fresca</a></li>
+                                                <li><a href="/">Leche light</a></li>
+                                                <li><a href="/">Leche descremada</a></li>
+                                                <li><a href="/">Leche semidescremada</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="sixth-column">
                                             <p>Quesos</p>
                                             <ul>
-                                                <li><a>Queso manchego</a></li>
-                                                <li><a>Queso panela</a></li>
-                                                <li><a>Queso oaxaca</a></li>
-                                                <li><a>Queso americano</a></li>
-                                                <li><a>Queso crema y doblecrema</a></li>
+                                                <li><a href="/">Queso manchego</a></li>
+                                                <li><a href="/">Queso panela</a></li>
+                                                <li><a href="/">Queso oaxaca</a></li>
+                                                <li><a href="/">Queso americano</a></li>
+                                                <li><a href="/">Queso crema y doblecrema</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
@@ -594,33 +599,33 @@ const Categories = () => {
                                         <div className="seventh-column">
                                             <p>Despensa</p>
                                             <ul>
-                                                <li><a>Aceites</a></li>
-                                                <li><a>Aderezos y salsas</a></li>
-                                                <li><a>Alimentos preparados</a></li>
-                                                <li><a>Arroz</a></li>
-                                                <li><a>Ates y almíbares</a></li>
+                                                <li><a href="/">Aceites</a></li>
+                                                <li><a href="/">Aderezos y salsas</a></li>
+                                                <li><a href="/">Alimentos preparados</a></li>
+                                                <li><a href="/">Arroz</a></li>
+                                                <li><a href="/">Ates y almíbares</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="eighth-column">
                                             <p>Refrigerado y congelado</p>
                                             <ul>
-                                                <li><a>Hielo</a></li>
-                                                <li><a>Papas para freír</a></li>
-                                                <li><a>Verduras y frutas</a></li>
-                                                <li><a>Carne y aves</a></li>
-                                                <li><a>Pescados y mariscos</a></li>
+                                                <li><a href="/">Hielo</a></li>
+                                                <li><a href="/">Papas para freír</a></li>
+                                                <li><a href="/">Verduras y frutas</a></li>
+                                                <li><a href="/">Carne y aves</a></li>
+                                                <li><a href="/">Pescados y mariscos</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="ninth-column">
                                             <p>Panadería y tortillería</p>
                                             <ul>
-                                                <li><a>Baguettes</a></li>
-                                                <li><a>Bolillos, teleras, chapatas y pambazos</a></li>
-                                                <li><a>Pan empacado</a></li>
-                                                <li><a>Pan tostado</a></li>
-                                                <li><a>Empanadas</a></li>
+                                                <li><a href="/">Baguettes</a></li>
+                                                <li><a href="/">Bolillos, teleras, chapatas y pambazos</a></li>
+                                                <li><a href="/">Pan empacado</a></li>
+                                                <li><a href="/">Pan tostado</a></li>
+                                                <li><a href="/">Empanadas</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
@@ -637,26 +642,26 @@ const Categories = () => {
                                         <div className="first-column">
                                             <p>Vinos</p>
                                             <ul>
-                                                <li><a>Vinos tintos</a></li>
-                                                <li><a>Vinos blancos</a></li>
-                                                <li><a>Espumosos</a></li>
-                                                <li><a>Vinos rosados</a></li>
+                                                <li><a href="/">Vinos tintos</a></li>
+                                                <li><a href="/">Vinos blancos</a></li>
+                                                <li><a href="/">Espumosos</a></li>
+                                                <li><a href="/">Vinos rosados</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="second-column">
                                             <p>Licores y destilados</p>
                                             <ul>
-                                                <li><a>Licores</a></li>
-                                                <li><a>Destilados</a></li>
+                                                <li><a href="/">Licores</a></li>
+                                                <li><a href="/">Destilados</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
                                         <div className="third-column">
                                             <p>Cervezas</p>
                                             <ul>
-                                                <li><a>Cervezas importadas</a></li>
-                                                <li><a>Cervezas nacionales</a></li>
+                                                <li><a href="/">Cervezas importadas</a></li>
+                                                <li><a href="/">Cervezas nacionales</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>
@@ -665,9 +670,9 @@ const Categories = () => {
                                         <div className="fourth-column">
                                             <p>Complementos</p>
                                             <ul>
-                                                <li><a>Bebidas preparadas</a></li>
-                                                <li><a>Salsas y escarchas</a></li>
-                                                <li><a>Accesorios para fumar</a></li>
+                                                <li><a href="/">Bebidas preparadas</a></li>
+                                                <li><a href="/">Salsas y escarchas</a></li>
+                                                <li><a href="/">Accesorios para fumar</a></li>
                                             </ul>
                                             <a href="/" className="all">Ver todo</a>
                                         </div>

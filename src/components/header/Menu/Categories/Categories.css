@@ -278,4 +278,13 @@
         font-size: 14px;
         width: 100%;
     }
+
+    .hello-there {
+        position: absolute;
+        background: url(../../../../imagenes/l6gbG.png);
+        z-index: -1;
+        width: 200%;
+        opacity: 0.5;
+        height: 100vh;
+    }
 }

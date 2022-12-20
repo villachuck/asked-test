@@ -19,13 +19,13 @@ const GridSix = () => {
                         </a>                          
                     </div>
                     <div className='second-section-banner'>
-                        <a href='/'>
+                        <a href='/productos/19'>
                             <p>Manzana roja mediana</p>
                             <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI-FRESCOS-Manzana-Roja-0002-E.jpg" alt='manzana' />
                         </a>                          
                     </div>
                     <div className='third-section-banner'>
-                        <a href='/'>
+                        <a href='/productos/14'>
                             <p>Mango ataulfo</p>
                             <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI%20FRESCOS-Mango-Ataulfo-0147-Ec.jpg" alt='mango ataulfo' />  
                         </a>                        
@@ -38,7 +38,7 @@ const GridSix = () => {
                         <Carousel cols={1} rows={1} gap={10} >
                             <Carousel.Item>
                                 <div className='middle-section-banner'>
-                                    <a href='/'>
+                                    <a href='/productos/19'>
                                         <p>Manzana roja mediana</p>
                                         <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI-FRESCOS-Manzana-Roja-0002-E.jpg" alt='manzana' />
                                     </a>                          
@@ -46,7 +46,7 @@ const GridSix = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className='middle-section-banner'>
-                                    <a href='/'>
+                                    <a href='/productos/14'>
                                         <p>Mango ataulfo</p>
                                         <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI%20FRESCOS-Mango-Ataulfo-0147-Ec.jpg" alt='mango ataulfo' />  
                                     </a>                        
@@ -54,7 +54,7 @@ const GridSix = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className='middle-section-banner'>
-                                    <a href='/'>
+                                    <a href='/productos/3'>
                                         <p>Lechuga romana</p>
                                         <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI-FRESCOS-Lechuga-Italiana-0006-E.jpg" alt='lechuga romana' />    
                                     </a>                        
@@ -62,7 +62,7 @@ const GridSix = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className='middle-section-banner'>
-                                    <a href='/'>
+                                    <a href='/productos/6'>
                                         <p>Papa blanca</p>
                                         <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI-FRESCOS%20Papa-Blanca-0210-E.jpg" alt='papa blanca' />  
                                     </a>                        
@@ -77,13 +77,13 @@ const GridSix = () => {
 
                 <div className='grid-bottom-row'>
                     <div className='fourth-section-banner'>
-                        <a href='/'>
+                        <a href='/productos/3'>
                             <p>Lechuga romana</p>
                             <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI-FRESCOS-Lechuga-Italiana-0006-E.jpg" alt='lechuga romana' />    
                         </a>                          
                     </div>
                     <div className='fifth-section-banner'>
-                        <a href='/'>
+                        <a href='/productos/6'>
                             <p>Papa blanca</p>
                             <img src="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI-FRESCOS%20Papa-Blanca-0210-E.jpg" alt='papa blanca' />  
                         </a>                        
